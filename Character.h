@@ -15,9 +15,7 @@ class Character : public GameObject {
 public:
     Character(const std::string& name, const std::string& description);
     virtual ~Character() = default;
-
     virtual void talk();
-
     void addItem(std::shared_ptr<Item> item);
     void removeItem(const std::string& itemName);
     std::shared_ptr<Item> getItem(const std::string& itemName);
