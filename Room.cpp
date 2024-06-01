@@ -17,12 +17,11 @@ void Room::removePassage(const std::string &direction) {
         passageMap.erase(direction);
     }
 }
-std::shared_ptr<Passage> Room::getPassage(const std::string &direction) {
-    if (passageMap.contains(direction)) {
+std::shared_ptr<Passage> Room::getPassage(const std::string& direction) {
+    if (passageMap.count(direction) > 0) {
         return passageMap[direction];
     } else {
-        std::cout << "It is impossible to go " << direction << "!\n";
-        return std::make_shared<NullPassage>(this);
+        return nullptr;
     }
 }
 void Room::addItem(std::shared_ptr<Item> item) {

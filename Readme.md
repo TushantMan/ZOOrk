@@ -58,7 +58,7 @@ ZOOrk is a text-based adventure game inspired by the classic game "Zork". It tak
 ## Gameplay
 
 - Use the `go <direction>` command to move between rooms (e.g., `go north`, `go east`).
-- Use the `look` or `inspect` command to examine the current room or an item.
+- Use the `look <item>` or `inspect <item>` command to examine an item (e.g., `look key`, `look gem` ) or the current room description using `look ` or `inspect` command.
 - Use the `take <item>` or `get <item>` command to pick up an item from the room.
 - Use the `drop <item>` command to drop an item from your inventory.
 - Use the `inventory`, `inv`, or `i` command to check your inventory.
