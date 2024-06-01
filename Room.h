@@ -1,6 +1,3 @@
-//
-// Created by Richard Skarbez on 5/7/23.
-//
 
 #ifndef ZOORK_ROOM_H
 #define ZOORK_ROOM_H
