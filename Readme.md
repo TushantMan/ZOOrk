@@ -22,7 +22,7 @@ ZOOrk is a text-based adventure game inspired by the classic game "Zork". It tak
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/zoork.git
+   git clone https://github.com/TushantMan/ZOOrk.git
    ```
 
 2. Navigate to the project directory:
@@ -77,6 +77,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Inspired by the classic game "Zork".
 - Developed using C++ and CMake.
-- Special thanks to the contributors and the open-source community.
 
 Enjoy playing ZOOrk and have a fantastic adventure!
